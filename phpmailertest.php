@@ -8,7 +8,7 @@ $mail->setFrom('daveswebtesting@gmail.com', 'Your Name');
 $mail->addAddress('daveswebtesting@gmail.com', 'My Friend');
 $mail->Subject  = 'First PHPMailer Message';
 $mail->Body     = 'Hi! This is my third e-mail sent through PHPMailer, i finally got the darn thing 
-working!';
+working! Now pushed to github';
 if(!$mail->send()) {
   echo 'Message was not sent.';
   echo 'Mailer error: ' . $mail->ErrorInfo;
